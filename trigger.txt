@@ -1,1 +1,1 @@
-alpine:20240606 registry.cn-hangzhou.aliyuncs.com/yaming116/alpine:20240606
+bitnami/kafka:2.7.0-debian-10-r124 registry.cn-hangzhou.aliyuncs.com/wlumos95/bitnami/kafka:2.7.0-debian-10-r124
