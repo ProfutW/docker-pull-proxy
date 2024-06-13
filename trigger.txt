@@ -1,1 +1,1 @@
-bitnami/kafka:2.7.0-debian-10-r124 registry.cn-hangzhou.aliyuncs.com/wlumos95/bitnami/kafka:2.7.0-debian-10-r124
+bitnami/kafka:2.7.0-debian-10-r124 registry.cn-hangzhou.aliyuncs.com/wlumos95/bitnami_kafka:2.7.0-debian-10-r124
