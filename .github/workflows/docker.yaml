@@ -27,6 +27,7 @@ jobs:
     - name: Build and push image to ACR EE
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $REGISTRY
+        awk -v REGISTRY="$REGISTRY" -F':' '{original=$0; gsub(/[./]/, "_", $1); print original " "REGISTRY"/wlumos95/" $1 ":" $2}' images.txt > trigger.txt
         sh pull.sh
         data=`cat trigger.txt`
 
